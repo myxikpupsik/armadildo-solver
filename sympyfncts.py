@@ -3,8 +3,8 @@ from sympy.parsing.latex import parse_latex
 
 
 def preview(s1,s2):
-    userid = input()
-    s_expr = input()
+    userid = s1
+    s_expr = s2
     print(s_expr)
 
     expr = parse_latex(s_expr)
